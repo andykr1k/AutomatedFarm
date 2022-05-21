@@ -1,7 +1,9 @@
 #include <vector>
 #include <cstring>
 #include <iostream>
+#include "Plants.hpp"
 using namespace std;
+
 
 int main() {
     double humidityPercentage = 0.0;
@@ -9,8 +11,6 @@ int main() {
     cout << "Humidity Percentage: ";
     cin >> humidityPercentage;
 
-
-    cout << "New Humidity Percentage: " <<  humidityPercentage * 10 << endl;
-
+    CheckWater(humidityPercentage);
     return 0;
 }
