@@ -1,16 +1,16 @@
 #include <vector>
 #include <cstring>
 #include <iostream>
-#include "Plants.hpp"
+#include "Tree.hpp"
 using namespace std;
 
 
 int main() {
-    double humidityPercentage = 0.0;
+    // double humidityPercentage = 0.0;
 
-    cout << "Humidity Percentage: ";
-    cin >> humidityPercentage;
+    // cout << "Humidity Percentage: ";
+    // cin >> humidityPercentage;
 
-    CheckWater(humidityPercentage);
+    // CheckWater(humidityPercentage);
     return 0;
 }
